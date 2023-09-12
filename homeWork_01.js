@@ -1,15 +1,11 @@
 // Занятие 2 - Сети, JS (Типы данных, приведение типов)
 
-// Домашнее занятие:
-
+// Домашнее занятие
 //К 3 встрече (11.09) подготовить по 2 вопроса на пройденные темы.
 
 // Каким образом мы можем использовать методы для строк и чисел, ведь это примитивы?
-
 // Когда HTTP вызов считается идемпотентным?
-
 // Придумать аналогию для http из повседневного мира
-
 // Какой тип у null? почему?
 
 //Для выполнения задания создаем новую ветку в вашем репозитории с именованием - homeWork_01, после выполнения д/з - прикрепляем ссылку к сдаче задания.
@@ -30,16 +26,39 @@
 // 3) Написать по 2 примера создания примитивных значений (если есть несколько способов - использовать) (string, number, boolean, null, undefined, symbol, bigInt)
 
 // const string1 = 'str1'
-// const string2 = "str2"
-// const string3 = `str3`
+// const string2 = String(123)
+// const string3 = 123..toString()
+// const string4 = 123 + ''
 
-// const number1 = 0;
-// const number2 = Infinity;
+// const number1 = 0
+// const number2 = Number('123')
+// const number3 = parseInt('123')
+// const number4 = parseFloat('123.123')
+// const number5 = +'123'
+// const number6 = 1 - '123'
+// const number7 = '1' & '123'
 
 // const isTrue1 = Boolean(true)
 // const isTrue2 = 3 == "3"
+// const isTrue3 = !!0
+// const isTrue4: if (isTrue) {...}
 
-//
+// let emptyValue1 = null
+// let notEmptyValue = 1
+// function getNull(variable) {
+//     return variable = null
+// }
+// const emptyValue2 = getNull(notEmptyValue)
+
+// let notInitializedVar1
+// const emptyObj = {}
+// let notInitializedObjKey = emptyObj.anyKey
+
+// const emptySymbol = Symbol()
+// const symbolWithDescription = Symbol('symbol description')
+
+// const negativeTinyBigInt = -120n
+// const bigIntFromString = BigInt("1234567890")
 
 // 4) Почему, если обратиться к переменным созданным через let, const до их объявления - мы получаем ReferenceError?
 
@@ -56,4 +75,4 @@ console.log(res2); // "3d"
 const res3 = Boolean(true && 3) + "d";
 console.log(res3); // "trued"
 
-console.log('AX_SAFE_INTEGER: ' + Number.MAX_SAFE_INTEGER)
+console.log('MAX_SAFE_INTEGER: ' + Number.MAX_SAFE_INTEGER) // 10(в 53 степени) - 1
