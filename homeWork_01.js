@@ -39,7 +39,7 @@
 // const isTrue1 = Boolean(true)
 // const isTrue2 = 3 == "3"
 
-
+//
 
 // 4) Почему, если обратиться к переменным созданным через let, const до их объявления - мы получаем ReferenceError?
 
