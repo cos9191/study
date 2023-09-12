@@ -7,6 +7,7 @@
 // Когда HTTP вызов считается идемпотентным?
 // Придумать аналогию для http из повседневного мира
 // Какой тип у null? почему?
+// console.log('MAX_SAFE_INTEGER: ' + Number.MAX_SAFE_INTEGER) // 10(в 53 степени) - 1
 
 //Для выполнения задания создаем новую ветку в вашем репозитории с именованием - homeWork_01, после выполнения д/з - прикрепляем ссылку к сдаче задания.
 
@@ -74,5 +75,3 @@ console.log(res2); // "3d"
 
 const res3 = Boolean(true && 3) + "d";
 console.log(res3); // "trued"
-
-console.log('MAX_SAFE_INTEGER: ' + Number.MAX_SAFE_INTEGER) // 10(в 53 степени) - 1
